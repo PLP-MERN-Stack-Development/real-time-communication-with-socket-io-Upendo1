@@ -2,15 +2,6 @@
 
 This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
 
-## Assignment Overview
-
-You will build a chat application with the following features:
-1. Real-time messaging using Socket.io
-2. User authentication and presence
-3. Multiple chat rooms or private messaging
-4. Real-time notifications
-5. Advanced features like typing indicators and read receipts
-
 ## Project Structure
 
 ```
@@ -38,40 +29,82 @@ socketio-chat/
 
 ## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week5-Assignment.md` file
-4. Complete the tasks outlined in the assignment
 
-## Files Included
+## Features Implemented
 
-- `Week5-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Socket.io configuration templates
-  - Sample components for the chat interface
 
-## Requirements
+### Core Features
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Basic understanding of React and Express
 
-## Submission
+- User login with username
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete both the client and server portions of the application
-2. Implement the core chat functionality
-3. Add at least 3 advanced features
-4. Document your setup process and features in the README.md
-5. Include screenshots or GIFs of your working application
-6. Optional: Deploy your application and add the URLs to your README.md
+- Global chat room for all users
 
-## Resources
 
-- [Socket.io Documentation](https://socket.io/docs/v4/)
-- [React Documentation](https://react.dev/)
-- [Express.js Documentation](https://expressjs.com/)
-- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
+- Display of messages with sender and timestamp
+
+
+- Typing indicators
+
+
+- Online/offline user status
+
+
+
+### Advanced Features
+
+
+- Real-time browser notifications
+
+
+- Message notifications when a user joins or leaves
+
+
+- Responsive design for desktop and mobile
+
+
+
+### Future Enhancements
+
+
+- Private messaging
+
+
+- Multiple chat rooms or channels
+
+
+- File/image sharing
+
+
+- Message reactions
+
+
+## Screenshots
+
+
+
+### Login Screen
+
+
+![Login Screen](screenshots/screenshot1.png)
+
+
+
+### Global Chat
+
+
+![Global Chat](screenshots/screenshot2.png)
+
+
+
+### Online Users & Notifications
+
+
+![Online Users](screenshots/screenshot3.png)
+
+
+
+> Make sure the `screenshots/` folder is committed to your repository so GitHub can display these images.
+
+
