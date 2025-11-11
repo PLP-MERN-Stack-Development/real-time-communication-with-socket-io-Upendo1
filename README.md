@@ -65,18 +65,3 @@ socketio-chat/
 
 
 
-### Future Enhancements
-
-
-- Private messaging
-
-
-- Multiple chat rooms or channels
-
-
-- File/image sharing
-
-
-- Message reactions
-
-
